@@ -41,7 +41,7 @@ const Addmovie = () => {
                 newMovie.languages.push( options[i].value )
             }  
         }
-
+      {console.log("hello")}
         // send the movie obj to the database
         fetch("http://localhost:5/movies" , 
                                                 {
